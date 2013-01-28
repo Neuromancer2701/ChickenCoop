@@ -1,0 +1,48 @@
+/* Copyright (c) 2012, the Dart project authors.  Please see the AUTHORS file */
+/* for details. All rights reserved. Use of this source code is governed by a */
+/* BSD-style license that can be found in the LICENSE file. */
+
+body {
+  background-color: #F8F8F8;
+  font-family: 'Lucida Console';
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 15px;
+}
+
+p {
+  color: #333;
+}
+
+#container {
+  width: 50px;
+  height: 200px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+#Time {
+  float: left;
+  width: 200px;
+  font-weight:bold;
+}
+
+#Door {
+  float: left;
+  width: 1400px;
+  font-weight:bold;
+}
+
+#Temp {
+  float: left;
+  width: 250px;
+  font-weight:bold;
+}
+
+#Water {
+  font-size: 16px;
+  width: 220px;
+  font-weight:bold;
+}
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<!-- Copyright (c) 2012, the Dart project authors.  Please see the AUTHORS file
+     for details. All rights reserved. Use of this source code is governed by a
+     BSD-style license that can be found in the LICENSE file. -->
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Chicken Coop Status</title>
+    <link type="text/css" rel="stylesheet" href="chickencoop.css">
+  </head>
+  <body>
+    <h1>Chicken Coop Status</h1>
+    
+    <div>
+      <p id="Water">Water Level </p>   
+      <canvas id="container" width="50px" height="200px"></canvas>
+    </div>
+    
+    <div>
+      <p id="Time"> </p>    
+    </div>
+  
+    <div>
+            <p id="Door"> </p>    
+    </div>
+    
+    <div>    
+          <p id="Temp"> </p>
+    </div>
+    
+    <script type="application/dart" src="chickencoop.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>
